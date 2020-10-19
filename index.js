@@ -129,3 +129,98 @@ fancyNumber ** 4;
 //   // do z
 //   // }
 // }
+
+console.clear();
+
+const zero = 0;
+
+if (!zero) {
+  console.log("ZERO WAS FALSY");
+}
+
+console.clear();
+
+for (let i = 0; i <= 10; i++) {
+  if (i % 5 === 0) {
+    console.log("Buzz");
+  } else if (i % 7 === 0) {
+    console.log("Fizz");
+  } else {
+    console.log(i);
+  }
+}
+
+// STRINGS
+console.clear();
+
+const string1 = "My name is ";
+
+const name = "Andre";
+
+console.log(string1 + name);
+console.log(`${string1}${name}`);
+
+const myAge = 26;
+console.log(`I am ${myAge} years old`);
+
+console.log("I am " + myAge + " years old");
+
+const maximsName = "Maxim Jurgander";
+
+for (let i = 0; i < maximsName.length; i++) {
+  console.log(maximsName[i]);
+}
+for (let i = maximsName.length - 1; i >= 0; i--) {
+  console.log(maximsName[i]);
+}
+
+console.clear();
+
+// const newAge = 14;
+// const newAge = prompt("What is your age");
+// if (newAge >= 18) {
+//   console.log(`You are legal to drive`);
+// } else {
+//   console.log(`You should be on a baby stroller`);
+// }
+
+// const someonesName = prompt("What is your name");
+
+// if (!someonesName) {
+//   // if (someonesName === "") {
+//   console.log("Oh oh ");
+// }
+
+// && and ||
+if (1 && true) {
+  console.log("COOL");
+}
+
+if (1 && 2) {
+  console.log("COOL TIMES 2");
+}
+
+if (1 || true) {
+  console.log("CONFUSING MUCH?");
+}
+
+let test = 1000 && true && [];
+test = null && true;
+test = false || true;
+console.log(test);
+
+console.clear();
+
+true && 123.34678 && "Nice city"; // becomes "Nice City". Why? All values are truthy and when using && operators  if everything is true, it will take the last value
+undefined || null || []; // becomes "[]". Why? Because we are dealing with the || (OR) operator, the first truthy value is the one that this resolves to
+[] && {} && 0 && ""; // becomes 0. Why? dealing with && (AND) operator, its either the last truthy value (if all values are truthy), or the first falsy.
+"hello" || true; // becomes true.
+false || 0; // becomes 0. Why? Because we are dealing with he || (OR) operator, if all values are false, the last one is the one that this expression resolves to
+!!true && "hey"; // becomes "hey". both values are true. !!true is a double negative
+!!false || null; //becomes null. same thng as above
+
+const player1 = "up";
+const userIsClickingUpArrow = true;
+if (player1 === "down" || userIsClickingUpArrow) {
+  console.log("Movingp");
+}
