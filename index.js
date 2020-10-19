@@ -81,3 +81,51 @@ if (isThisTheBestClassEver) {
 // !null =>
 
 console.clear();
+
+// given a starting number, an ending number, and special palces, you are going to console.log numbers, in normal palces, and special keyworkd in places where the numbers
+
+for (let i = 0; i < 100; i++) {
+  console.log(i);
+}
+
+console.clear();
+
+let fancyNumber = 1;
+// fancyNumber++;
+console.log(fancyNumber++);
+console.log(fancyNumber);
+console.log(++fancyNumber);
+
+fancyNumber += 1; // fancyNumber = fancyNumber +1
+fancyNumber -= 1; // fancyNumber-- OR fancyNumber = fancyNumber -1
+fancyNumber *= 313; // fancyNumber = fancyNumber * 313
+fancyNumber /= 215; // fancyNumber = fancyNumber / 215
+
+// %
+// 4 % 2
+
+fancyNumber ** 4;
+
+// fizzbuzz
+// 1
+// 2
+// 3
+// 4
+// buzz
+// 6
+// fizz
+// 8
+// 9
+// buzz
+
+// for (let i = 0; i <= 10; i++) {
+//   // if (//something is true, or truthy) {
+//   // print x
+//   // }
+//   // else if (something else is trutthy but not really the thing above) {
+//   // do y
+//   // }
+//   // else if (something else is trutthy but not really the thing above) {
+//   // do z
+//   // }
+// }
