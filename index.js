@@ -68,3 +68,16 @@ const isTrue = true;
 // = -> Assignment Operator
 // == -> Equal Value
 // === -> Strict equality
+
+const isFilipeAGoodTA = !false;
+
+const isThisTheBestClassEver = 100;
+
+if (isThisTheBestClassEver) {
+  console.log("HEC YEAH");
+}
+
+// 1 ->!truthy -> false
+// !null =>
+
+console.clear();
