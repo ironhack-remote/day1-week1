@@ -22,7 +22,7 @@ let vegetables;
 console.clear();
 
 console.log(typeof ordinaryNumber);
-// const 1Two = "cool beans" ❌ -> variables MUST start with a letter
+// const 1Two = "cool beans" ❌ -> variables MUST start with a letter or `_`
 
 // DATA TYPES
 // array, object, number, string, boolean, null, undefined, NaN,symbol
