@@ -33,3 +33,38 @@ console.log(typeof ordinaryNumber);
 // null
 // undefined
 // NaN
+
+const niceString = "Hello there, how are you?";
+console.log(niceString.length);
+console.log(niceString[niceString.length - 1]);
+
+let firstLetter = niceString[0];
+console.log("firstLETTTER", firstLetter);
+
+const isTrue = true;
+// primitive
+// strings, numbers, null, undefined, NaN
+
+// true
+// while (true) {
+//   console.log("HUGO KNOWS HIS STUFF");
+// }
+
+// FALSY VALUES
+// NaN, 0, undefined, "", null
+// if ("") {
+//   console.log("NEVER REACHES HERE");
+// }
+
+// !true -> false
+// !1 -> false
+// !0 -> true
+// !"" -> true
+// !!true
+
+// != -> ! equal in value
+// !== -> not equal both in type and value
+
+// = -> Assignment Operator
+// == -> Equal Value
+// === -> Strict equality
