@@ -3,6 +3,7 @@ console.log("LIVE FROM THE CLASS");
 
 // variable declaration
 let ordinaryNumber = 1;
+console.log(typeof ordinaryNumber);
 
 // variable reassignment
 ordinaryNumber = "2";
@@ -15,3 +16,17 @@ let bananas;
 
 let fuits;
 let vegetables;
+
+console.clear();
+
+console.log(typeof ordinaryNumber);
+// const 1Two = "cool beans" ❌
+
+// array, object, number, string, boolean, null, undefined, NaN,symbol
+// boolean true | false
+
+// string  =>anything insde quotes
+// numbers
+// null
+// undefined
+// NaN
