@@ -222,5 +222,40 @@ false || 0; // becomes 0. Why? Because we are dealing with he || (OR) operator, 
 const player1 = "up";
 const userIsClickingUpArrow = true;
 if (player1 === "down" || userIsClickingUpArrow) {
-  console.log("Movingp");
+  console.log("Moving up");
+}
+
+console.clear();
+
+let count = 0;
+if (true) {
+  // whenever it evaluates to true. Either be `true` or truthy
+  count++;
+} else if (!!true) {
+  count++;
+} else if (true) {
+  count++;
+}
+
+console.log("count: ", count);
+
+console.clear();
+
+// const myBirthdayDate = prompt("When where you born");
+
+// switch (myBirthdayDate) {
+//   case "2000": {
+//     console.log("You dont remember Y2K");
+//      break
+//   }
+
+//   case "1990": {
+//     console.log("You were too young too remember Y2K");
+//   }
+// }
+
+let clock = 0;
+while (clock <= 12) {
+  console.log(`The time on the clock is ${clock}`);
+  clock++;
 }
